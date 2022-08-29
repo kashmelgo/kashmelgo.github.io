@@ -1,0 +1,89 @@
+body {
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white !important;
+}
+
+h1 {
+  font-size: 4.50rem !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold !important;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.20rem;
+  font-weight: light !important;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+  padding-left:2em;
+}
+
+.w-25 bg-light {
+  color: black !important;
+}
+.container-fluid{
+ padding: .25rem !important;
+}
+
+.aboutName{
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+}
+
+.aboutTitle{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.project-container{
+  float: absolute;
+}
+
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor:default;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding-top: 1em;
+}
+.card-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter !important;
+}
+.card-img-top {
+  max-height: 18rem;
+  max-width: 32rem;
+  overflow: hidden;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.minorText {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter !important;
+}
+.techStack:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+/* font-family: 'League Spartan', sans-serif;
+font-family: 'Open Sans', sans-serif; */
