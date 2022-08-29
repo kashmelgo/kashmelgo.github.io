@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 body {
   background: #485563;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
