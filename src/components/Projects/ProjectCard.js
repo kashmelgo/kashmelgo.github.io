@@ -4,8 +4,12 @@ import { Card, Row, Col } from "react-bootstrap";
 export default function ProjectCard(props){
     return (
                 <Card style={{width: "36rem"}} className= "m-3 p-4" bg="dark">
-                    <Card.Img variant="top" src={props.image} />
+                    <a className='col px-0 py-0'href={props.link}>
+                        <Card.Img variant="top" src={props.image} />
+                    </a>
+                    
                         <Card.Body>
+                            
                             <a className='col px-0 py-0'href={props.link}>
                               <FaGithub color='white'size='22px'/>
                             </a>
